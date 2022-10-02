@@ -4,7 +4,7 @@ import skywolf46.jabytecode.data.JabyteConstantInfoBase
 import java.io.DataInputStream
 
 
-class JabyteConstantDoubleInfo(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
+class JabyteConstantInfoDouble(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
     val highBytes = stream.readInt()
 
     val lowBytes = stream.readInt()

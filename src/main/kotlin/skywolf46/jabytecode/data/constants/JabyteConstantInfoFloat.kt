@@ -3,7 +3,7 @@ package skywolf46.jabytecode.data.constants
 import skywolf46.jabytecode.data.JabyteConstantInfoBase
 import java.io.DataInputStream
 
-class JabyteConstantFloatInfo(stream: DataInputStream) : JabyteConstantInfoBase(stream){
+class JabyteConstantInfoFloat(stream: DataInputStream) : JabyteConstantInfoBase(stream){
     // ¯\_(ツ)_/¯
     private val data = stream.readFloat()
 

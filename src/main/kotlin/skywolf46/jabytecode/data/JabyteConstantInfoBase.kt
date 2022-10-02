@@ -25,59 +25,59 @@ abstract class JabyteConstantInfoBase(
 
         internal fun init() {
             registerProvider(7) {
-                JabyteConstantClassInfo(it)
+                JabyteConstantInfoClass(it)
             }
 
             registerProvider(9) {
-                JabyteConstantFieldReferenceInfo(it)
+                JabyteConstantInfoFieldReference(it)
             }
 
             registerProvider(10) {
-                JabyteConstantMethodReferenceInfo(it)
+                JabyteConstantInfoMethodReference(it)
             }
 
             registerProvider(11) {
-                JabyteConstantInterfaceMethodReferenceInfo(it)
+                JabyteConstantInfoInterfaceMethodReference(it)
             }
 
             registerProvider(8) {
-                JabyteConstantStringInfo(it)
+                JabyteConstantInfoString(it)
             }
 
             registerProvider(3) {
-                JabyteConstantIntegerInfo(it)
+                JabyteConstantInfoInteger(it)
             }
 
             registerProvider(4) {
-                JabyteConstantFloatInfo(it)
+                JabyteConstantInfoFloat(it)
             }
 
             registerProvider(5) {
-                JabyteConstantLongInfo(it)
+                JabyteConstantInfoLong(it)
             }
 
             registerProvider(6) {
-                JabyteConstantDoubleInfo(it)
+                JabyteConstantInfoDouble(it)
             }
 
             registerProvider(12) {
-                JabyteConstantNameAndTypeInfo(it)
+                JabyteConstantInfoNameAndType(it)
             }
 
             registerProvider(1) {
-                JabyteConstantInterfaceMethodReferenceInfo(it)
+                JabyteConstantInfoInterfaceMethodReference(it)
             }
 
             registerProvider(15) {
-                JabyteConstantMethodHandleInfo(it)
+                JabyteConstantInfoMethodHandle(it)
             }
 
             registerProvider(16) {
-                JabyteConstantMethodTypeInfo(it)
+                JabyteConstantInfoMethodType(it)
             }
 
             registerProvider(18) {
-                JabyteConstantInvokeDynamicInfo(it)
+                JabyteConstantInfoInvokeDynamic(it)
             }
         }
     }

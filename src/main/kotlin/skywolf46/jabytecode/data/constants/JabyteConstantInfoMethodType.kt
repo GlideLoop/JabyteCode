@@ -3,10 +3,10 @@ package skywolf46.jabytecode.data.constants
 import skywolf46.jabytecode.data.JabyteConstantInfoBase
 import java.io.DataInputStream
 
-class JabyteConstantStringInfo(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
-    val stringIndex = stream.readShort()
-
+class JabyteConstantInfoMethodType(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
+    val descriptorIndex = stream.readShort()
     override fun getTag(): Int {
-        return 8
+        return 16
     }
+
 }

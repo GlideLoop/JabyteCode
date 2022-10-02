@@ -3,7 +3,7 @@ package skywolf46.jabytecode.data.constants
 import skywolf46.jabytecode.data.JabyteConstantInfoBase
 import java.io.DataInputStream
 
-class JabyteConstantLongInfo(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
+class JabyteConstantInfoLong(stream: DataInputStream) : JabyteConstantInfoBase(stream) {
     val highBytes = stream.readInt()
 
     val lowBytes = stream.readDouble()
